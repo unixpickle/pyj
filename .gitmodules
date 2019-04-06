@@ -1,0 +1,3 @@
+[submodule "jsource"]
+	path = jsource
+	url = https://github.com/jsoftware/jsource

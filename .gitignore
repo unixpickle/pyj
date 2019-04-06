@@ -1,0 +1,6 @@
+*.a
+*.so
+*.dylib
+*.egg-info
+.vscode
+build/

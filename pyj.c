@@ -26,6 +26,7 @@ static void j_callback_output(void* runtime, int type, const char* str) {
       if (rt->output_cb) {
         PyObject* args = Py_BuildValue("is", type, str);
         PyObject_CallObject(rt->output_cb, args);
+        Py_XDECREF(args);
       }
       return;
     }
